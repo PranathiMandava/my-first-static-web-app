@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@600&family=Gabarito&family=Satisfy&display=swap" rel="stylesheet">
+<body style="background-color:skyblue;">
+<link rel="stylesheet" href="styles.css">
+<h1 style="color:red;">Different types of fonts</h1>
+<h2 style="color:red;">Basic font tags of html</h2>
+<p>The font and basefont tags are deprecated and it is supposed to be removed in a future version of HTML. So they should not be used rather, it's suggested to use CSS styles to manipulate your fonts. But still for learning purpose, this chapter will explain font and basefont tags in detail.</p>
+<h2 style="color:red;">Attribute of font face</h2>
+<p>You can set font face using face attribute but be aware that if the user viewing the page doesn't have the font installed, they will not be able to see it. Instead user will see the default font face applicable to the user's computer.</p>
+<h2 style="color:red;">Web Safe Fonts</h2>
+<p>Web designers often use "web safe fonts" that are widely available across different devices and operating systems. These include Arial, Helvetica, Times New Roman, Georgia, and Courier New.</p>
+<h2 style="color:red;">Font Family</h2>
+<p>The font-family property in CSS is used to specify the typeface or font family for text.
+You can list multiple font families in the order of preference. The browser will use the first available font in the list.
+Common font families include serif (e.g., Times New Roman), sans-serif (e.g., Arial), monospace (e.g., Courier New), cursive, and fantasy.</p>
+
+</body>
+</html>
